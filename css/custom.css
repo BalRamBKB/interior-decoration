@@ -28,7 +28,7 @@ a:hover {
 
 .mysite .navbar-custom ul.nav.navbar-nav .active:before,
 .mysite ul.sidebar.nav .active:before {
-  background-color: #FEEB9F;
+  background-color: #2196F3;
   content: '';
   display: block;
   padding: 5px 0;
@@ -45,7 +45,7 @@ a:hover {
 
 .mysite ul.nav li a:hover,
 .mysite ul.nav li a:focus {
-  color: #FEEB9F;
+  color: #03A9F4;
   background-color:transparent;
 }
 
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .add-to-cart {
-  background:#FFD541 ;
+  background:#673AB7 ;
   border: 0;
   border-radius: 0;
   color:#fff;
@@ -104,7 +104,7 @@ a:hover {
 }
 
 .add-to-cart:hover {
-  background: #ff9800; 
+  background: #3F51B5; 
   color:#fff;
 }
 
@@ -145,7 +145,7 @@ a:hover {
 
 .breadcrumb>li+li:before {
   padding: 0 5px;
-  color: #f9e005;
+  color: #2196F3;
   content: "\25B6";
 }
 
@@ -173,7 +173,7 @@ a:hover {
 }
 
 .yellow {
-  color: #FFD541;
+  color: #FFC107;
 }
 
 .grey {
@@ -295,7 +295,7 @@ background:#DAD5AB;
 
 
 .footer {
-  background-color: #FFD541;
+  background-color: #607D8B;
   color: #333;
   font-weight: bold;
   margin-top: 40px;
@@ -347,8 +347,8 @@ hr {
 }
 
 .download-pdf {
-  background: #FFD541;
-  color: #000;
+  background: #673AB7;
+  color: #fff;
   display: inline-block;
   font-weight: bold;
   position: absolute;
@@ -382,6 +382,11 @@ hr {
   content: '\2193';
 }
 
+
+a:focus, a:hover {
+    color: #fff;
+
+}
 
 
 /* On small screens */
@@ -460,7 +465,7 @@ hr {
   }
 
   .mysite .nav.navbar-inline a.active {
-    background: #FFD541;
+    background: #673AB7;
     color: #fff;
   }
 
